@@ -33,7 +33,7 @@ void Solve()
 {
     unsigned int M;
     unsigned int N;
-    std::cin >> N >> N;
+    std::cin >> N >> M;
 
     std::priority_queue<QueueEntry, std::vector<QueueEntry>, Compare>mandatsDivisor;
 
